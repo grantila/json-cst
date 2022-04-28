@@ -7,7 +7,9 @@
 
 # json-cst
 
-This package parses a JSON into CST (Concrete Syntax Tree), similar to an AST but more low-level and with ties to the lexer tokens. It uses `json-lexer` to parse the file into tokens. The speed is practically the same as `json-to-ast` (it's ~10% faster than `json-to-ast`), but it's far smaller (even including `json-lexer`).
+This package parses a JSON into CST (Concrete Syntax Tree), similar to an AST but more low-level and with ties to the lexer tokens. It uses `json-lexer` to parse the file into tokens. The speed is practically the same as [`json-to-ast`](https://www.npmjs.com/package/json-to-ast) (it's ~10% faster than `json-to-ast`), but it's far smaller (even including `json-lexer`). Pure package is 7x smaller, bundling it makes it 6x smaller according to bundlephobia ([json-to-ast](https://bundlephobia.com/package/json-to-ast@2.1.0) vs [json-cst](https://bundlephobia.com/package/json-cst@1.0.0)).
+
+It comes with TypeScript typings.
 
 
 # Install
@@ -59,7 +61,7 @@ Each token contain a `{ range: CstTokenRange }` where
 ```ts
 interface CstTokenRange {
     start: number;
-	end: number;
+    end: number;
 }
 ```
 
