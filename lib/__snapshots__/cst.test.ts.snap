@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cst simple json 1`] = `
+Object {
+  "root": Object {
+    "children": Array [
+      Object {
+        "colon": Object {
+          "kind": "object-property-colon",
+          "punctuatorToken": Object {
+            "offset": 7,
+            "raw": ":",
+            "type": "punctuator",
+            "value": ":",
+          },
+          "range": Object {
+            "end": 9,
+            "start": 7,
+          },
+          "whitespaceAfter": Object {
+            "offset": 8,
+            "raw": " ",
+            "type": "whitespace",
+            "value": " ",
+          },
+          "whitespaceBefore": undefined,
+        },
+        "comma": Object {
+          "offset": 14,
+          "raw": ",",
+          "type": "punctuator",
+          "value": ",",
+        },
+        "keyToken": Object {
+          "offset": 2,
+          "raw": "\\"foo\\"",
+          "type": "string",
+          "value": "foo",
+        },
+        "kind": "object-property",
+        "range": Object {
+          "end": 16,
+          "start": 1,
+        },
+        "valueNode": Object {
+          "kind": "string",
+          "range": Object {
+            "end": 14,
+            "start": 9,
+          },
+          "token": Object {
+            "offset": 9,
+            "raw": "\\"bar\\"",
+            "type": "string",
+            "value": "bar",
+          },
+        },
+        "valueTokens": Array [],
+        "whitespaceBefore": Object {
+          "offset": 1,
+          "raw": " ",
+          "type": "whitespace",
+          "value": " ",
+        },
+        "whitespaceBeforeComma": undefined,
+      },
+      Object {
+        "colon": Object {
+          "kind": "object-property-colon",
+          "punctuatorToken": Object {
+            "offset": 26,
+            "raw": ":",
+            "type": "punctuator",
+            "value": ":",
+          },
+          "range": Object {
+            "end": 28,
+            "start": 26,
+          },
+          "whitespaceAfter": Object {
+            "offset": 27,
+            "raw": " ",
+            "type": "whitespace",
+            "value": " ",
+          },
+          "whitespaceBefore": undefined,
+        },
+        "comma": Object {
+          "offset": 40,
+          "raw": ",",
+          "type": "punctuator",
+          "value": ",",
+        },
+        "keyToken": Object {
+          "offset": 16,
+          "raw": "\\"childObj\\"",
+          "type": "string",
+          "value": "childObj",
+        },
+        "kind": "object-property",
+        "range": Object {
+          "end": 42,
+          "start": 16,
+        },
+        "valueNode": Object {
+          "children": Array [
+            Object {
+              "colon": Object {
+                "kind": "object-property-colon",
+                "punctuatorToken": Object {
+                  "offset": 33,
+                  "raw": ":",
+                  "type": "punctuator",
+                  "value": ":",
+                },
+                "range": Object {
+                  "end": 35,
+                  "start": 33,
+                },
+                "whitespaceAfter": Object {
+                  "offset": 34,
+                  "raw": " ",
+                  "type": "whitespace",
+                  "value": " ",
+                },
+                "whitespaceBefore": undefined,
+              },
+              "comma": undefined,
+              "keyToken": Object {
+                "offset": 30,
+                "raw": "\\"a\\"",
+                "type": "string",
+                "value": "a",
+              },
+              "kind": "object-property",
+              "range": Object {
+                "end": 39,
+                "start": 29,
+              },
+              "valueNode": Object {
+                "kind": "string",
+                "range": Object {
+                  "end": 38,
+                  "start": 35,
+                },
+                "token": Object {
+                  "offset": 35,
+                  "raw": "\\"b\\"",
+                  "type": "string",
+                  "value": "b",
+                },
+              },
+              "valueTokens": Array [],
+              "whitespaceBefore": Object {
+                "offset": 29,
+                "raw": " ",
+                "type": "whitespace",
+                "value": " ",
+              },
+              "whitespaceBeforeComma": undefined,
+            },
+          ],
+          "kind": "object",
+          "range": Object {
+            "end": 40,
+            "start": 28,
+          },
+          "whitespaceAfterChildren": undefined,
+        },
+        "valueTokens": Array [],
+        "whitespaceBefore": undefined,
+        "whitespaceBeforeComma": undefined,
+      },
+      Object {
+        "colon": Object {
+          "kind": "object-property-colon",
+          "punctuatorToken": Object {
+            "offset": 52,
+            "raw": ":",
+            "type": "punctuator",
+            "value": ":",
+          },
+          "range": Object {
+            "end": 54,
+            "start": 52,
+          },
+          "whitespaceAfter": Object {
+            "offset": 53,
+            "raw": " ",
+            "type": "whitespace",
+            "value": " ",
+          },
+          "whitespaceBefore": undefined,
+        },
+        "comma": undefined,
+        "keyToken": Object {
+          "offset": 42,
+          "raw": "\\"childArr\\"",
+          "type": "string",
+          "value": "childArr",
+        },
+        "kind": "object-property",
+        "range": Object {
+          "end": 61,
+          "start": 42,
+        },
+        "valueNode": Object {
+          "children": Array [
+            Object {
+              "comma": undefined,
+              "kind": "array-element",
+              "range": Object {
+                "end": 59,
+                "start": 55,
+              },
+              "valueNode": Object {
+                "kind": "number",
+                "range": Object {
+                  "end": 58,
+                  "start": 56,
+                },
+                "token": Object {
+                  "offset": 56,
+                  "raw": "42",
+                  "type": "number",
+                  "value": 42,
+                },
+              },
+              "valueTokens": Array [],
+              "whitespaceBefore": Object {
+                "offset": 55,
+                "raw": " ",
+                "type": "whitespace",
+                "value": " ",
+              },
+              "whitespaceBeforeComma": undefined,
+            },
+          ],
+          "kind": "array",
+          "range": Object {
+            "end": 60,
+            "start": 54,
+          },
+          "whitespaceAfterChildren": undefined,
+        },
+        "valueTokens": Array [],
+        "whitespaceBefore": undefined,
+        "whitespaceBeforeComma": undefined,
+      },
+    ],
+    "kind": "object",
+    "range": Object {
+      "end": 62,
+      "start": 0,
+    },
+    "whitespaceAfterChildren": undefined,
+  },
+  "valueTokens": Array [],
+  "whitespaceAfter": undefined,
+  "whitespaceBefore": undefined,
+}
+`;
