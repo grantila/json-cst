@@ -392,6 +392,7 @@ Object {
           "whitespaceBefore": undefined,
         },
         "comma": undefined,
+        "key": "foo",
         "keyToken": Object {
           "offset": 1,
           "raw": "\\"foo\\"",
@@ -422,6 +423,7 @@ Object {
                 "whitespaceBefore": undefined,
               },
               "comma": undefined,
+              "key": "baz",
               "keyToken": Object {
                 "offset": 8,
                 "raw": "\\"baz\\"",
@@ -452,6 +454,7 @@ Object {
                       "whitespaceBefore": undefined,
                     },
                     "comma": undefined,
+                    "key": "bak",
                     "keyToken": Object {
                       "offset": 15,
                       "raw": "\\"bak\\"",
@@ -482,6 +485,7 @@ Object {
                             "whitespaceBefore": undefined,
                           },
                           "comma": undefined,
+                          "key": "",
                           "keyToken": Object {
                             "offset": 22,
                             "raw": "\\"\\"",
@@ -512,6 +516,7 @@ Object {
                                   "whitespaceBefore": undefined,
                                 },
                                 "comma": undefined,
+                                "key": "bam",
                                 "keyToken": Object {
                                   "offset": 26,
                                   "raw": "\\"bam\\"",
@@ -542,6 +547,7 @@ Object {
                                         "whitespaceBefore": undefined,
                                       },
                                       "comma": undefined,
+                                      "key": "bar",
                                       "keyToken": Object {
                                         "offset": 33,
                                         "raw": "\\"bar\\"",
@@ -572,6 +578,7 @@ Object {
                                               "whitespaceBefore": undefined,
                                             },
                                             "comma": undefined,
+                                            "key": "bob",
                                             "keyToken": Object {
                                               "offset": 40,
                                               "raw": "\\"bob\\"",
@@ -717,6 +724,7 @@ Object {
           "type": "punctuator",
           "value": ",",
         },
+        "key": "foo",
         "keyToken": Object {
           "offset": 2,
           "raw": "\\"foo\\"",
@@ -777,6 +785,7 @@ Object {
           "type": "punctuator",
           "value": ",",
         },
+        "key": "childObj",
         "keyToken": Object {
           "offset": 16,
           "raw": "\\"childObj\\"",
@@ -812,6 +821,7 @@ Object {
                 "whitespaceBefore": undefined,
               },
               "comma": undefined,
+              "key": "a",
               "keyToken": Object {
                 "offset": 30,
                 "raw": "\\"a\\"",
@@ -889,6 +899,7 @@ Object {
           "whitespaceBefore": undefined,
         },
         "comma": undefined,
+        "key": "childArr",
         "keyToken": Object {
           "offset": 42,
           "raw": "\\"childArr\\"",

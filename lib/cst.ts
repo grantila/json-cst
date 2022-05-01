@@ -238,6 +238,7 @@ function makeJsonObject(
 			range: makeRange( propStartToken, tokens[ i ], ),
 			whitespaceBefore: before.whitespaceToken,
 			keyToken,
+			key: keyToken.value,
 			colon: colon.node,
 			valueTokens,
 			whitespaceBeforeComma: beforeComma.whitespaceToken,

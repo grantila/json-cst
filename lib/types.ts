@@ -77,6 +77,7 @@ export interface CstNodeObjectProperty
 	range: CstTokenRange;
 	whitespaceBefore?: TokenWithOffset< WhitespaceToken >;
 	keyToken: TokenWithOffset< StringToken >;
+	key: string;
 	colon: CstNodeObjectPropertyColon;
 	valueTokens: TokensWithOffset;
 	whitespaceBeforeComma?: TokenWithOffset< WhitespaceToken >;
