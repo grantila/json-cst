@@ -192,14 +192,9 @@ function makeJsonObject(
 	const children: CstNodeObjectProperty[ ] = [ ];
 	let whitespaceAfterChildren
 		: TokenWithOffset< WhitespaceToken > | undefined;
-	// const node: Omit< CstNodeObject, 'range' > = {
-	// 	kind: 'object',
-	// 	children: [ ],
-	// 	whitespaceAfterChildren: undefined,
-	// };
 
 	let i = pos;
-	for ( ; i < tokens.length; ++i )
+	for ( ; i < tokens.length; )
 	{
 		const propStartToken = tokens[ i ]!;
 
@@ -278,7 +273,7 @@ function makeJsonArray(
 		: TokenWithOffset< WhitespaceToken > | undefined;
 
 	let i = pos;
-	for ( ; i < tokens.length; ++i )
+	for ( ; i < tokens.length; )
 	{
 		const elemStartToken = tokens[ i ]!;
 
